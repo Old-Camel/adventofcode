@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61f9cae5-9f6d-41cc-b429-04c4e3a2d24f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/file/day01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/day02.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/run/oldcamel/year2020/aoc/Day01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/run/oldcamel/year2020/aoc/Day02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/run/oldcamel/year2020/util/InputUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/run/oldcamel/year2020/day1/Main.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/day03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/day03.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -77,6 +74,11 @@
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/file" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Day02">
     <configuration name="Day01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -176,7 +178,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607997219092</updated>
-      <workItem from="1607997223576" duration="7368000" />
+      <workItem from="1607997223576" duration="8052000" />
     </task>
     <task id="LOCAL-00001" summary="day2 part1">
       <created>1608005363408</created>
@@ -222,25 +224,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="527" y="162" key="Github.UntrackedFilesDialog/0.0.1440.900/1440.-152.1080.1920@0.0.1440.900" timestamp="1607998602222" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1608013569168">
+    <state width="1398" height="235" key="GridCell.Tab.0.bottom" timestamp="1608014002610">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-152.1080.1920@0.0.1440.900" timestamp="1608013569168" />
+    <state width="1398" height="235" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-152.1080.1920@0.0.1440.900" timestamp="1608014002610" />
     <state width="1398" height="304" key="GridCell.Tab.0.bottom/52.23.1388.877/1440.-129.1080.1897@52.23.1388.877" timestamp="1608009300586" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1608013569162">
+    <state width="1398" height="235" key="GridCell.Tab.0.center" timestamp="1608014002605">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.-152.1080.1920@0.0.1440.900" timestamp="1608013569162" />
+    <state width="1398" height="235" key="GridCell.Tab.0.center/0.0.1440.900/1440.-152.1080.1920@0.0.1440.900" timestamp="1608014002605" />
     <state width="1398" height="304" key="GridCell.Tab.0.center/52.23.1388.877/1440.-129.1080.1897@52.23.1388.877" timestamp="1608009300576" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1608013569158">
+    <state width="1398" height="235" key="GridCell.Tab.0.left" timestamp="1608014002602">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.-152.1080.1920@0.0.1440.900" timestamp="1608013569158" />
+    <state width="1398" height="235" key="GridCell.Tab.0.left/0.0.1440.900/1440.-152.1080.1920@0.0.1440.900" timestamp="1608014002602" />
     <state width="1398" height="304" key="GridCell.Tab.0.left/52.23.1388.877/1440.-129.1080.1897@52.23.1388.877" timestamp="1608009300570" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1608013569166">
+    <state width="1398" height="235" key="GridCell.Tab.0.right" timestamp="1608014002608">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.-152.1080.1920@0.0.1440.900" timestamp="1608013569166" />
+    <state width="1398" height="235" key="GridCell.Tab.0.right/0.0.1440.900/1440.-152.1080.1920@0.0.1440.900" timestamp="1608014002608" />
     <state width="1398" height="304" key="GridCell.Tab.0.right/52.23.1388.877/1440.-129.1080.1897@52.23.1388.877" timestamp="1608009300585" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1608009795141">
       <screen x="0" y="0" width="1440" height="900" />
@@ -262,9 +264,13 @@
     </state>
     <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900/1440.-152.1080.1920@0.0.1440.900" timestamp="1608009795138" />
     <state width="1398" height="304" key="GridCell.Tab.1.right/52.23.1388.877/1440.-129.1080.1897@52.23.1388.877" timestamp="1608009300081" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608009811763">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608014000959">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-152.1080.1920@0.0.1440.900" timestamp="1608009811763" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-152.1080.1920@0.0.1440.900" timestamp="1608014000959" />
+    <state x="508" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608014566377">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="508" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.-152.1080.1920@0.0.1440.900" timestamp="1608014566377" />
   </component>
 </project>
