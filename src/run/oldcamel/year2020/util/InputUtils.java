@@ -18,7 +18,7 @@ import java.util.Scanner;
  * Time: 2:10 下午
  * Email: old_camel@163.com
  */
-public class StaticUtils {
+public class InputUtils {
     public static List<Integer> inputFileToIntList(File inputFile) {
         List<Integer> numbers = new ArrayList<>();
         try {
