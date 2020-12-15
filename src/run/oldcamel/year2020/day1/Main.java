@@ -6,7 +6,7 @@ import java.util.HashMap;
 
 
 /**
- * Specifically, they need you to find the two entries that sum to 2020 and then multiply those two numbers together.
+ *Part1 Specifically, they need you to find the two entries that sum to 2020 and then multiply those two numbers together.
  *
  * For example, suppose your expense report contained the following:
  *
@@ -20,6 +20,11 @@ import java.util.HashMap;
  *
  * Of course, your expense report is much larger. Find the two entries that sum to 2020; what do you get if you multiply them together?
  *
+ *
+ *
+ *Part2 Using the above example again, the three entries that sum to 2020 are 979, 366, and 675. Multiplying them together produces the answer, 241861950.
+ *
+ * In your expense report, what is the product of the three entries that sum to 2020?
  * */
 public class Main {
 
