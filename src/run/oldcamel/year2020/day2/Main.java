@@ -1014,8 +1014,12 @@ public class Main {
                 "5-6 d: dwdddzd\n" +
                 "7-8 d: ddddwddddj\n" +
                 "8-9 w: wwwwwwwxww";
-        AtomicInteger flag = new AtomicInteger();
-        Arrays.stream(str.split("\n")).forEach(a -> {
+        //AtomicInteger flag = new AtomicInteger();
+        //AtomicInteger flag1 = new AtomicInteger();
+        int flag = 0;
+        int flag1 = 0;
+        String[] strings = str.split("\n");
+        for (String a : strings) {
             String[] split = a.split(": ");
             String x = split[0];
             String y = split[1];
@@ -1028,10 +1032,27 @@ public class Main {
             int i1 = Integer.parseInt(n[0]);
             int i2 = Integer.parseInt(n[1]);
             if (i1 <= i3 && i3 <= i2) {
-                System.out.println(a);
-                flag.getAndIncrement();
+                //System.out.println(a);
+                flag++;
             }
-        });
+        }
+
+        for (String a : strings) {
+            String[] split = a.split(": ");
+            String x = split[0];
+            String y = split[1];
+            String[] z = x.split(" ");
+            String i = z[1];
+            String[] n = z[0].split("-");
+            char c = y.charAt(Integer.parseInt(n[0]) - 1);
+            char c2 = y.charAt(Integer.parseInt(n[1]) - 1);
+            if(((c+"").equals(i)||(c2+"").equals(i))&&c!=c2){
+                System.out.println(a);
+                flag1++;
+            }
+        }
+
         System.out.println(flag);
+        System.out.println(flag1);
     }
 }
