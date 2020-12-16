@@ -21,11 +21,19 @@ public class Day03 {
         this.data = InputUtils.inputFileToStringList(file);
     }
 
-    public int part1(){
-        int flag = 0;
+    public long part1(){
+        return run(3,1);
+    }
+    public long part2(){
+        return run(3,1)*run(1,1)*run(5,1)*run(7,1)*run (1,2);
+    }
+
+    private long run(int right,int down) {
+        long flag = 0;
         int length = data.get(0).length();
         int postion=1;
-        for (String line : data) {
+        for (int i=0; i< data.size();i+=down) {
+            String line=data.get(i);
             int i1 = postion % length;
             if(i1!=0){
                 char c = line.charAt(i1-1);
@@ -38,18 +46,14 @@ public class Day03 {
                     flag++;
                 }
             }
-            postion=postion+3;
+            postion=postion+right;
         }
         return flag;
     }
-    public int part2(){
-        int flag = 0;
 
-        return flag;
-    }
     public static void main(String[] args) {
         Day03 day02 = new Day03(new File("src/file/day03.txt"));
         System.out.println(day02.part1());
-        //System.out.println(day02.part2());
+        System.out.println(day02.part2());
     }
 }
