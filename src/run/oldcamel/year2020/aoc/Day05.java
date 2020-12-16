@@ -19,6 +19,7 @@ import java.util.stream.Collectors;
  */
 public class Day05 {
     private List<String> data;
+    List<Integer> nums = new ArrayList<>();
 
     public Day05(File file) {
         data = InputUtils.inputFileToStringList(file);
@@ -26,7 +27,6 @@ public class Day05 {
 
     public long part1() {
 
-        List<Integer> nums = new ArrayList<>();
 
         for (String datum : data) {
             int a = 0;
@@ -44,18 +44,18 @@ public class Day05 {
                         row = b;
                     }
 
-                }else {
+                } else {
                     int c = (a + b - 1) / 2;
                     if (aChar == 'F') {
                         b = c;
                     } else {
-                        a = c+1;
+                        a = c + 1;
                     }
                 }
             }
-             a = 0;
-             b = 7;
-             chars = y.toCharArray();
+            a = 0;
+            b = 7;
+            chars = y.toCharArray();
 
             for (char aChar : chars) {
                 if ((b - a) == 1) {
@@ -65,26 +65,32 @@ public class Day05 {
                         col = b;
                     }
 
-                }else {
+                } else {
                     int c = (a + b - 1) / 2;
                     if (aChar == 'L') {
                         b = c;
                     } else {
-                        a = c+1;
+                        a = c + 1;
                     }
                 }
             }
-            nums.add(row*8+col);
+            nums.add(row * 8 + col);
 
         }
         Collections.sort(nums);
-        Integer integer = nums.get(nums.size()-1);
+        Integer integer = nums.get(nums.size() - 1);
 
         return integer;
     }
 
     public long part2() {
-
+        Integer integer = nums.get(0);
+        for (Integer num : nums) {
+            if(!integer.equals(num)){
+                return integer;
+            }
+            integer++;
+        }
         return -1;
     }
 
